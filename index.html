@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="css/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>ACCIONES MÓVILES</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#beep">SONIDOS DEL DISPOSITIVO</a></li>
+            <li><a href="#shake">VIBRACIONES DEL DISPOSITIVO</a></li>
+			<li><a href="#alert">ALERTA DEL DISPOSITIVO</a></li>
+            <li><a href="#confirm">CONFIRMACIÓN DEL DISPOSITIVO</a></li>
+            <li><a href="#disp">INFORMACIÓN DEL DISPOSITIVO</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>CARDONA BERRA MARIA ALEJANDRA</h4>
+	</div>
+</div>
+
+<div data-role="page" id="beep">
+	<div data-role="header">
+		<h1>SONIDOS DEL DISPOSITIVO</h1>
+	</div>
+	<div data-role="listview">	
+		<li class="btn b1">1 Beep</li>	
+        <li class="btn b2">2 Beeps</li>
+        <li class="btn b3">5 Beeps</li>	
+	</div>
+	<div data-role="footer">
+		<h4>CARDONA BERRA MARIA ALEJANDRA</h4>
+	</div>
+</div>
+
+<div data-role="page" id="shake">
+	<div data-role="header">
+		<h1>VIBRACIONES DEL DISPOSITIVO</h1>
+	</div>
+    <div data-role="content">
+	<ul data-role="controlgroup" data-type="vertical" class="localnav">	
+		<li class="btn v1"><a data-role="button">1 Vibraci&oacute;n</a></li>	
+        <li class="btn v2"><a data-role="button">2 Vibraciones</a></li>		
+	</ul>
+    </div>
+	<div data-role="footer">
+		<h4>CARDONA BERRA MARIA ALEJANDRA</h4>
+	</div>
+</div>
+
+<div data-role="page" id="alert">
+	<div data-role="header">
+		<h1>ALERTA DEL DISPOSITIVO</h1>
+	</div>
+    <div data-role="content">
+	<div id="derecha" style="width:100%;height:300px; background-color:#C09;">			
+	</div>
+    </div>
+	<div data-role="footer">
+		<h4>CARDONA BERRA MARIA ALEJANDRA</h4>
+	</div>
+</div>
+<div data-role="page" id="confirm">
+	<div data-role="header">	
+		<h1>CONFIRMACI&Oacute;N DEL DISPOSITIVO</h1>
+	</div>
+	<div data-role="content">	
+    <div id="izquierda" style="width:100%;height:300px; background-color:#609;">		
+	</div>
+    </div>
+	<div data-role="footer">
+		<h4>CARDONA BERRA MARIA ALEJANDRA</h4>a
+	</div>
+    
+    
+<div data-role="page" id="disp">
+	<div data-role="header">	
+		<h1>INFORMACI&Oacute;N DEL DISPOSITIVO</h1>
+	</div>
+  <table width="805" border="1">
+  <tr>
+    <td width="355"><strong>NOMBRE:</strong></td>
+    <td width="434">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>PHONEGAP:</strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>PLATAFORMA:</strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>VERSION:</strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>UUID:</strong></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+ <div data-role="footer">
+	<h4>CARDONA BERRA MARIA ALEJANDRA</h4>
+ </div>
+</div>
+
+
+
+</body>
+</html>
